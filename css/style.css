@@ -18,27 +18,42 @@ body{
 	/*border: dashed 2px #262626;*/
 }
 .block{
-	width: 80%;
+	width: 85%;
 	margin: 0 auto;
 	background-color: #eee;
 	border-radius: 5px;
 	height: auto;
 	padding-bottom: 10px;
+	position: relative;
+	overflow-y:hidden;
+	margin-bottom: 20px;
 }
 .block>p{
-	font-size: 1.14em;
+	font-size: 1.24em;
 	padding: 15px;
 	padding-top: 25px;
 	padding-bottom: 0;
 	margin-bottom: 0;
-
-
 }
 .block>p+p{
-	text-align: right;
-	margin-right: 100px;
+	font-size: 1.02em;
 	font-style: italic;
-	font-size: 1em;
-	padding-bottom: 7px;
-	margin-top: 0;
+	/*margin-left: 70%;*/
+	width: 50%;
+	box-sizing: border-box;
+	text-align: right;
+}
+.item{
+	float: right;
+
+}
+.block .date{
+	text-align: left;
+	width: 50%;
+
+}
+@media only screen and (max-width: 375px){
+	.block{
+		width: 100%;
+	}
 }
