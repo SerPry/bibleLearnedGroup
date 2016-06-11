@@ -1,0 +1,44 @@
+body{
+	background:url(http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/stardust.png);
+}
+.wrapper{
+	max-width: 1200px;
+	margin:0 auto;
+	text-align: center;
+	font-family: "Roboto";
+	color: #fafafa;
+	text-shadow: 0px 0.5px 0 #fafafa;
+}
+.content{
+	height: auto;
+	/*background-color: #fafafa;*/
+	border-radius: 5px;
+	color: #262626;
+
+	/*border: dashed 2px #262626;*/
+}
+.block{
+	width: 80%;
+	margin: 0 auto;
+	background-color: #eee;
+	border-radius: 5px;
+	height: auto;
+	padding-bottom: 10px;
+}
+.block>p{
+	font-size: 1.14em;
+	padding: 15px;
+	padding-top: 25px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+
+
+}
+.block>p+p{
+	text-align: right;
+	margin-right: 100px;
+	font-style: italic;
+	font-size: 1em;
+	padding-bottom: 7px;
+	margin-top: 0;
+}
